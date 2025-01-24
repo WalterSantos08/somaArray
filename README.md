@@ -1,55 +1,53 @@
-Programa de Soma de Elementos de um Array
+# Programa de Soma dos Elementos de um Array
+
 Este programa em Java calcula a soma de todos os elementos de um array de números inteiros fornecido pelo usuário.
 
-Como funciona?
-O programa solicita ao usuário o tamanho do array.
-Em seguida, o usuário insere os números que compõem o array.
-O programa calcula e exibe a soma de todos os números inseridos.
-Requisitos
-Java instalado no seu computador.
-Ambiente de execução ou IDE para executar o código (por exemplo: Eclipse, IntelliJ IDEA ou terminal).
-Como usar?
-Compile o programa:
+## Funcionalidades
 
-bash
-Copiar
-Editar
-javac somaArray.java
-Execute o programa:
+- Solicita ao usuário o tamanho do array.
+- Permite que o usuário insira os elementos do array.
+- Calcula e exibe a soma de todos os elementos.
 
-bash
-Copiar
-Editar
-java somaArray
-Insira o tamanho do array quando solicitado.
+## Requisitos
 
-Insira os números um por um conforme as instruções na tela.
+- Java Development Kit (JDK) instalado.
+- Um editor de código ou IDE como IntelliJ IDEA, Eclipse ou Visual Studio Code.
 
-O programa exibirá a soma dos números inseridos.
+## Como executar
 
-Exemplo de execução
-Entrada:
+1. Copie o código para um arquivo chamado `somaArray.java`.
+2. Compile o programa com o seguinte comando no terminal:
+   ```
+   javac somaArray.java
+   ```
+3. Execute o programa com o comando:
+   ```
+   java somaArray
+   ```
+4. Siga as instruções fornecidas pelo programa para inserir o tamanho e os elementos do array.
 
-yaml
-Copiar
-Editar
+## Exemplo de Execução
+
+### Entrada:
+```
 Digite o tamanho do array:
 3
 digite os numeros do array:
 numero 1:
-5
-numero 2:
 10
+numero 2:
+20
 numero 3:
-15
-Saída:
+30
+```
 
-c
-Copiar
-Editar
-A soma dos elementos do array é: 30
-Estrutura do Código
-Entrada de Dados: O programa usa a classe Scanner para capturar a entrada do usuário.
-Loop para Inserção: Um for é utilizado para preencher o array com os números fornecidos pelo usuário.
-Cálculo da Soma: Um laço for-each itera sobre os elementos do array e soma todos os valores.
-Saída: Exibe a soma no console.
+### Saída:
+```
+a soma dos elementos do array é: 60
+```
+
+
+## Licença
+
+Este projeto é de uso livre para fins educacionais. Sinta-se à vontade para modificar e compartilhar.
+
